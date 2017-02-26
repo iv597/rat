@@ -1,0 +1,18 @@
+[package]
+name = "rat"
+description = "A calendar for those who crawl around a terminal"
+version = "0.1.0"
+authors = ["Josh Klar <j@iv597.com>"]
+
+[dependencies]
+ejdb = "0.3"
+
+[dependencies.clap]
+version = "2.20"
+default-features = false
+features = [ "suggestions", "color" ]
+
+[dependencies.ical]
+version = "0.2"
+default-features = false
+features = ["ical-parser", "vcard-parser"]
