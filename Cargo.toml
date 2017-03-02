@@ -13,6 +13,7 @@ default-features = false
 features = [ "suggestions", "color" ]
 
 [dependencies.ical]
-version = "0.2"
+git = "https://github.com/iv597/ical-rs.git"
+rev = "lineparsed_value_as_option"
 default-features = false
-features = ["ical-parser", "vcard-parser"]
+features = ["ical-parser"]
